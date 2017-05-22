@@ -5,18 +5,18 @@ defmodule Deck do
 
   def cards do
     %{
-    	Pine:          ["plain1", "plain2", "ribbon", "bright"],
-    	Plum:          ["plain1", "plain2", "ribbon", "animal"],
-    	Sakura:        ["plain1", "plain2", "ribbon", "bright"],
-    	Wisteria:      ["plain1", "plain2", "ribbon", "animal"],
-    	Iris:          ["plain1", "plain2", "ribbon", "animal"],
-    	Peony:         ["plain1", "plain2", "ribbon", "animal"],
-    	Clover:        ["plain1", "plain2", "ribbon", "animal"],
-    	Pampas:        ["plain1", "plain2", "animal", "bright"],
-    	Chrysanthemum: ["plain1", "plain2", "ribbon", "animal"],
-    	Maple:         ["plain1", "plain2", "ribbon", "animal"],
-    	Willow:        ["plain1", "ribbon", "animal", "bright"],
-    	Paulownia:     ["plain1", "plain2", "plain3", "bright"],
+    	"pine"          => ["plain1", "plain2", "ribbon", "bright"],
+    	"plum"          => ["plain1", "plain2", "ribbon", "animal"],
+    	"sakura"        => ["plain1", "plain2", "ribbon", "bright"],
+    	"wisteria"      => ["plain1", "plain2", "ribbon", "animal"],
+    	"iris"          => ["plain1", "plain2", "ribbon", "animal"],
+    	"peony"         => ["plain1", "plain2", "ribbon", "animal"],
+    	"clover"        => ["plain1", "plain2", "ribbon", "animal"],
+    	"pampas"        => ["plain1", "plain2", "animal", "bright"],
+    	"chrysanthemum" => ["plain1", "plain2", "ribbon", "animal"],
+    	"maple"         => ["plain1", "plain2", "ribbon", "animal"],
+    	"willow"        => ["plain1", "ribbon", "animal", "bright"],
+    	"paulownia"     => ["plain1", "plain2", "plain3", "bright"],
     }
   end
 
